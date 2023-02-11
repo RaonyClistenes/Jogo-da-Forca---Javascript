@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <main>
+        <h1 id="titulo">Jogo da forca</h1>
+    </main>
+    <div class="valores">
+        <div class="selecao">
+            <Select>
+                <option value="">Selecione um Tema</option>
+                <option value="animal">Animal</option>
+                <option value="lugar">Lugar</option>
+                <option value="objeto">Objeto</option>
+                <option value="corpo">Corpo</option>
+                <option value="desenho">Desenho</option>
+
+            </Select>
+        </div>
+        <div>
+            <button class="reload">Reiniciar</button>
+        </div>
+        <div class="pontos">
+            <label for="pontuacao">Tempo:</label>
+            <input id="pontuacao" type="number" disabled>
+        </div>
+        <div class="tentativas">
+            <label for="tentativas">Tentativas:</label>
+            <input id="tentativas" value="10" type="number" disabled>
+        </div>
+    </div>
+    <div class="letras">
+        <button class="btn">A</button>
+        <button class="btn">B</button>
+        <button class="btn">C</button>
+        <button class="btn">D</button>
+        <button class="btn">E</button>
+        <button class="btn">F</button>
+        <button class="btn">G</button>
+        <button class="btn">H</button>
+        <button class="btn">I</button>
+        <button class="btn">J</button>
+        <button class="btn">K</button>
+        <button class="btn">L</button>
+        <button class="btn">M</button>
+        <button class="btn">N</button>
+        <button class="btn">O</button>
+        <button class="btn">P</button>
+        <button class="btn">Q</button>
+        <button class="btn">R</button>
+        <button class="btn">S</button>
+        <button class="btn">T</button>
+        <button class="btn">U</button>
+        <button class="btn">V</button>
+        <button class="btn">X</button>
+        <button class="btn">W</button>
+        <button class="btn">Y</button>
+        <button class="btn">Z</button>
+
+    </div>
+    <div class="resposta">
+
+    </div>
+
+    <div id="fade" class="hide"></div>
+    <div id="modal" class="hide">
+        <h1 class="titulo-2">Você Perdeu!</h1>
+        <button class="reload two">Reiniciar</button>
+    </div>
+    <script src="/script.js"></script>
+</body>
+
+</html>
